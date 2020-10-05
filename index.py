@@ -8,7 +8,7 @@ import requests
 
 app = Flask(__name__)
 def get_coords():
-    url_id = http://api.openweathermap.org/data/2.5/forecast?id=524901&cnt=10&appid=72248f167f6d06f5f1da1a7e3a029e5b
+    url_id = "http://api.openweathermap.org/data/2.5/forecast?id=524901&cnt=10&appid=72248f167f6d06f5f1da1a7e3a029e5b"
     info = urllib.request.urlopen(url_id).read()
     return info
 def get_weather(lat):
